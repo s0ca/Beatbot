@@ -500,7 +500,7 @@ class Music(commands.Cog):
         if not ctx.voice_state.voice:
             await ctx.invoke(self._join)
 
-        with open("./playlist/mathias.txt") as f:
+        with open("./playlist/01_[Fanatic12000]_abduction01") as f:
             data = f.readlines()
         for i in data:
                 await ctx.send(f"!p {i}")
@@ -512,7 +512,7 @@ class Music(commands.Cog):
         if not ctx.voice_state.voice:
             await ctx.invoke(self._join)
 
-        with open("./playlist/adrien.txt") as f:
+        with open("./playlist/02_[dgoHn]_Monega_EP") as f:
             data = f.readlines()
         for i in data:
                 await ctx.send(f"!p {i}")
@@ -524,13 +524,263 @@ class Music(commands.Cog):
         if not ctx.voice_state.voice:
             await ctx.invoke(self._join)
 
-        with open("./playlist/matthieu.txt") as f:
+        with open("./playlist/03_[Synth_Alien]_Das_Augas_ó_Alén") as f:
             data = f.readlines()
         for i in data:
                 await ctx.send(f"!p {i}")
                 time.sleep(1)
 
-  
+    @commands.command(name='pl4')
+    async def pl4(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/04_[Shinra]_Reverie_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+    
+    @commands.command(name='pl5')
+    async def pl5(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/05_[Shinra]_Supernova_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl6')
+    async def pl6(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/06_[VA]_Wave_Function_Collapse") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)  
+
+    @commands.command(name='pl7')
+    async def pl7(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/07_[Magic_Sword]_Endless") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)   
+    
+    @commands.command(name='pl8')
+    async def pl8(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/08_[Magic_Sword]_Volume_1") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+    
+    @commands.command(name='pl9')
+    async def pl9(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/09_[D_Arcangelo]_Tweaking_Paper_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl10')
+    async def pl10(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/10_[Voiron]_Drill_n_Voiron") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl11')
+    async def pl11(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/11_[Kavinsky]_1986_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl12')
+    async def pl12(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/12_[Kavinsky]_Nightcall_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl13')
+    async def pl13(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/13_[RTR]_Symmetriades") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl14')
+    async def pl14(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/14_[Kiemsa]_Eaux_Troubles") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl15')
+    async def pl15(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/15_[Carpenter_Brut]_EP_III") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl16')
+    async def pl16(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/16_[MasterBootRecord]_Virtuaverse_OST") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl17')
+    async def pl17(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/17_[ZC-ELEC001]_Escape_From_Andromeda") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl18')
+    async def pl18(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/18_[ZC-ELEC002]_The_Space_Gate") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl19')
+    async def pl19(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/19_[ZC-303001]_303_First_Pattern") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl20')
+    async def pl20(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/20_[MasterBootRecord]_INTERRUPT_REQUEST") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl21')
+    async def pl21(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/21_[MasterBootRecord]_INTERNET_PROTOCOL") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+
+    @commands.command(name='pl22')
+    async def pl22(self, ctx: commands.Context):
+        
+        if not ctx.voice_state.voice:
+            await ctx.invoke(self._join)
+
+        with open("./playlist/22_[Velum Break]_Cloaca_EP") as f:
+            data = f.readlines()
+        for i in data:
+                await ctx.send(f"!p {i}")
+                time.sleep(1)
+                    
+    #Liste les playlist dispo 
+    @commands.command(name='pll')
+    async def pll(self, ctx: commands.Context, *, page: int = 1):
+
+        playlist = []
+        for x in (os.listdir('./playlist')):
+            playlist.append(x)
+            playlist.sort()
+        
+        """items_per_page = 5
+        pages = math.ceil(len(playlist) / items_per_page)
+        
+        start = (page - 1) * items_per_page
+        end = start + items_per_page
+        
+        for x in (os.listdir('./playlist')):
+            await ctx.send(f"```css\n{x}```")"""
+        embed = (discord.Embed(title="Playlist Dispos", description='\n'.join(playlist), color=0xff8040)
+             .set_footer(text=f"Quémandé par: {ctx.author}"))
+             #.set_footer(text='Page {}/{}'.format(page, pages)))
+        await ctx.send(embed=embed)
+
+
     #Check si l'utilisateur qui demande la lecture est dans un canal vocal
     @_join.before_invoke
     @_play.before_invoke
@@ -579,6 +829,28 @@ async def on_message(message):
     ctx = await bot.get_context(message)
     await bot.invoke(ctx)
 
+
+#LISTENERS ###############################################################
+
+@bot.listen()
+async def on_message(message):
+    if "half life" in message.content.lower():
+        hl_quote =[
+            'Where are we taking this Freeman guy?','We remember the Freeman. We are coterminous.','Time, Dr. Freeman? Is it really that … time again? It seems as if you only just arrived.', 
+            'Gordon? Alyx? I don\'t believe it! How the hell\'d you get out of the Citadel?', 'prepare for unforeseen consequences', 
+            'The cake is a lie, heu désolé je me suis planté de jeu', 'Bienvenue à Black Mesa', 'Réveillez vous Docteur Freeman ! Sentez vous l\'odeur des cendres?!']
+        reponse = random.choice(hl_quote)
+        await message.channel.send(reponse)
+
+@bot.listen()
+async def on_message(message):  
+    if "connard" in message.content:
+        connard_answ =[
+            'Oui?','C\'est mon deuxieme prénom','On m\'appelle?', 'Tu te trompes de personne, je ne suis pas <@265781552926031872>', 'C\'est toi le connard non mais!', 
+            'Qui m\'invoque?', 'Pourquoi tu t\'appelles toi même ?', 'Tu m\'as pris pour <@268109733666226176> ou quoi ?']
+        reponse = random.choice(connard_answ)
+        await message.channel.send(reponse)
+
 # COMMANDES DIVERSES ###########################################################
 
 # Custom Help
@@ -589,36 +861,10 @@ async def help(ctx):
     help_e = discord.Embed(colour=discord.Colour.green(), timestamp=ctx.message.created_at,
                             title=f"Me voici pour t'aider {author} !")
     help_e.add_field(name='!help', value=f"Affiche cette aide\n```css\n!help```", inline=False)
-    help_e.add_field(name='!connard', value=f"Invoque le Bot (peu se conduire comme un con)\n```css\n!connard```", inline=False)
     help_e.add_field(name='!whois', value=f"Affiche les infos utilisateur\nPrend le pseudo en parametre\npour afficher les infos d'un autre membre ```css\n!whois @pseudo```", inline=False)
-    help_e.add_field(name='!hello', value=f"Salut {author}\n```css\n!hello```",inline=False)
     help_e.add_field(name='COMMANDES MULTIMEDIA', value=f"-Play ```css\n!play YT/BC/SC/'strings'```\n-Pause ```css\n!pause```\n-Reprendre ```css\n!resume```\n-Suivant ```css\n!next```\n-Stop ```css\n!stop```\n-Monter/Baisser le volume ```css\n!vol int [0-100]```\n-Looper la lecture ```css\n!loop```\n-Demander la lecture en cours ```css\n!now```\n-Montrer le contenu de la playlist ```css\n!list```\n-Supprimer une track ```css\n!rm int [track index]```\n-Supprimer le dernier morceau ajouté ```css\n!rml```\n-Mélanger la liste de lecture```css\n !shuffle```\n-Lancer les custom playlist```css\n !pl1 / !pl2 / !pl3```",inline=True)
     help_e.set_footer(text='BeatBot Beta 1.0.6')
     await ctx.send(embed=help_e)
-
-
-# Salutation et affichage des membres (à embedé)
-@bot.command(name='hello', aliases=['salut', 'helo','hi','bonjour','plop'])
-async def hello(ctx):
-    for guild in bot.guilds:
-        if guild.name == GUILD:
-            break
-        members = '\n - '.join([member.name for member in guild.members])
-    await ctx.send(f'Salut à toi et bienvenu sur {guild.name}! \n Voici la liste des membres \n - {members}')
-
-
-# Humour à la con :3 
-@bot.command(name='connard', aliases=['cannard', 'conar', 'connar', 
-'connare', 'conard', 'connaet', 'connzrt', 'cpnnart', 'connart','connear', 'connaed'])
-async def connard(ctx):
-    connard_answ = [
-        'Oui?','C\'est mon deuxieme prénom','On m\'appelle?', 'Tu te trompes de personne, je ne suis pas <@265781552926031872>', 'C\'est toi le connard non mais!', 
-        'Qui m\'invoque?', 'Pourquoi tu t\'appelles toi même ?', 'Tu m\'as pris pour <@268109733666226176> ou quoi ?' 
-    ]
-
-    reponse = random.choice(connard_answ)
-    await ctx.send(reponse)
-
 
 # Infos Utilisateur
 @bot.command(name='whois',aliases=['wois', 'whoi', 'hois','wohis'])
@@ -650,7 +896,7 @@ async def userinfo(ctx, member: discord.Member = None):
 async def purge(ctx, messages: int = 10):
     
         if messages > 1000:
-            return ctx.send("Stop c'est un peu trop ! Pas au dela de 100!")
+            return ctx.send("Stop c'est un peu trop ! Pas au dela de 1000!")
         await ctx.channel.purge(limit=messages)
         removed = messages
         await ctx.send(f"Suppression de {removed} messages")
